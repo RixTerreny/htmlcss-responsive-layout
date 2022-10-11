@@ -1,0 +1,32 @@
+/* media query */
+@media screen and (min-width:768px){
+    html{
+        font-size: 20px;
+    }
+
+    .first-sect img{
+        max-width: 250px;
+    }
+
+    .card{
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+        height: 87%;
+    }
+
+    .media-flex{
+        display: flex;
+    }
+
+    .media-wrap{
+        flex-wrap: wrap;
+    }
+    
+    .col-2{
+        flex-basis: 66%;
+    }
+
+    .col-1{
+        flex-basis: 33%;
+    }
+}

@@ -102,6 +102,17 @@ span{
     border-radius: 50%;
 }
 
+.padding-1{
+    padding-top: 1.5rem;
+}
+
+.card{
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+
 
 /* container, background-color & color */
 .container{
@@ -160,31 +171,75 @@ header img{
 
 
 /* main */
-.padding-top{
-    padding-top: 6rem;
+/* 1st section*/
+.first-sect{
+    padding-top: 4.2rem;
 }
 
-.padding-top .card{
+.first-sect .card{
     background-color: #b5ddff;
 }
 
-.card{
-    padding: 1.5rem;
-    border-radius: 2rem;
-    margin: 1rem;
+.first-sect h4{
+    color: #0084fd;
 }
 
+.first-sect p{
+    color: grey;
+}
 
-/* 3th section, testimonial*/
+.first-sect button{
+    background-color: #0084fd;
+    color: white;
+    margin: 1.5rem 0;
+    padding: 0.6rem 1.5rem;
+}
 
+.apple{
+    width: 1.3rem;
+    margin-right: 0.4rem;
+}
 
+.first-sect .card:first-child {
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.resize{
+    width: 6rem;
+    margin: 1rem auto;
+}
+
+/* 2nd section, strategic planning */
+.resize-icon{
+    display: block;
+    padding: 0.5rem;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 60%;
+    margin: 2rem auto 1rem auto;
+}
+
+/* 3rd section, testimonial*/
+.third-sect img{
+    height: 12rem;
+    width: 12rem;
+    margin-bottom: 1rem 0;
+}
 
 /* 4th section, benefit of working with us*/
+.forth-sect .card{
+    text-align: left;
+}
+
 .forth-sect button{
     margin: 1.5rem 0 1rem 0;
     padding: 0.7rem 2.5rem;
 }
 
+.card:last-child{
+    margin-bottom: 3rem;
+}
 
 /* 5th section, about us */
 .myimg{
