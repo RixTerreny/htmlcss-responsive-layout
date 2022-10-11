@@ -4,10 +4,6 @@
         font-size: 20px;
     }
 
-    body{
-        margin: auto;
-    }
-
     .media-flex{
         display: flex;
     }
@@ -47,6 +43,11 @@
     /* 3rd section */
     .third-sect img{
         margin-right: 1rem;
+    }
+
+    /* 4th section */
+    .half{
+        flex-basis: 46%;
     }
 
     /* 5th section */
