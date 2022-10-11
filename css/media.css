@@ -4,6 +4,10 @@
         font-size: 20px;
     }
 
+    body{
+        margin: auto;
+    }
+
     .media-flex{
         display: flex;
     }
@@ -14,6 +18,10 @@
 
     .media-wrap{
         flex-wrap: wrap;
+    }
+
+    .media-text-align{
+        text-align: left;
     }
 
     /* 1st section */
@@ -41,4 +49,16 @@
         margin-right: 1rem;
     }
 
+    /* 5th section */
+    .media-margin{
+        margin-left: 2.5rem;
+    }
+
+    .fifth-sect h2{
+        font-size: 2rem;
+    }
+
+    .myimg h2{
+        font-size: 5rem;
+    }
 }

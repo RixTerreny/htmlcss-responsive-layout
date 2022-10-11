@@ -118,6 +118,7 @@ span{
 .container{
     max-width: 920px;
     padding: 2.1rem;
+    margin: auto;
 }
 
 .background-1{
