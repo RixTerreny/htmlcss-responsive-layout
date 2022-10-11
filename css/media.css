@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+:root{
+    --purple: #9792e4;
+}
+
 ul{
     list-style: none;
     display: none;
@@ -32,10 +36,20 @@ img{
     width: 100%;
 }
 
-.icon{
-    width: 6rem;
+h1{
+    font-size: 3rem;
+    color: #fdc15f;
 }
 
+h2{
+    color: var(--purple);
+}
+
+h3{
+    color: var(--purple);
+}
+
+/* flex related */
 .flex{
     display: flex;
     position: relative;
@@ -53,9 +67,19 @@ img{
     flex-wrap: wrap;
 }
 
+/* class */
+.icon{
+    width: 6rem;
+}
+
+.text-centred{
+    text-align: center;
+}
+
+/* container, background-color & color */
 .container{
     max-width: 920px;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .background-1{
@@ -64,6 +88,7 @@ img{
 
 .background-1 .card{
     background-color: #9792e4;
+    color: white;
 }
 
 .background-2{
@@ -73,6 +98,15 @@ img{
 .background-2 .card{
     background-color: white;
 }
+
+.white{
+    color: white;
+}
+
+.purple{
+    color: var(--purple);
+}
+
 
 /* Header */
 header{
@@ -105,10 +139,55 @@ header img{
 .padding-top .card{
     background-color: #b5ddff;
 }
+
 .card{
     min-height: 300px;
     border-radius: 2rem;
     margin: 1rem;
 }
 
+/* 5th section, about us */
 
+
+/* 6th section, it's free */
+.sixth-sect div,
+.sixth-sect h3,
+.sixth-sect h1,
+.sixth-sect p{
+    padding: 1.2rem 0;
+}
+
+.sixth-sect p{
+    font-size: 0.8rem;
+}
+
+.sixth-sect button{
+    font-size: 1.2rem;
+    padding: 0.7rem 2.5rem;
+    margin: 1rem 0;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #333333;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+footer .container{
+    padding: 0;
+}
+
+footer p{
+    padding: 2rem 0;
+}
+
+footer a{
+    text-decoration: underline;
+}
+
+.boolean{
+    padding-top: 3rem;
+}
