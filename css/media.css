@@ -4,6 +4,20 @@
         font-size: 20px;
     }
 
+    .media-flex{
+        display: flex;
+    }
+
+    .media-align{
+        align-items: center;
+    }
+
+    .media-wrap{
+        flex-wrap: wrap;
+    }
+
+    /* 1st section */
+
     .first-sect img{
         max-width: 250px;
     }
@@ -14,14 +28,6 @@
         height: 87%;
     }
 
-    .media-flex{
-        display: flex;
-    }
-
-    .media-wrap{
-        flex-wrap: wrap;
-    }
-    
     .col-2{
         flex-basis: 66%;
     }
@@ -29,4 +35,10 @@
     .col-1{
         flex-basis: 33%;
     }
+
+    /* 3rd section */
+    .third-sect img{
+        margin-right: 1rem;
+    }
+
 }
