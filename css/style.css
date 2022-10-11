@@ -64,6 +64,11 @@ h4{
     padding-bottom: 1rem;
 }
 
+span{
+    font-size: 1.5rem;
+}
+
+
 /* flex related */
 .flex{
     display: flex;
@@ -82,6 +87,7 @@ h4{
     flex-wrap: wrap;
 }
 
+
 /* class */
 .icon{
     width: 6rem;
@@ -90,6 +96,12 @@ h4{
 .text-centred{
     text-align: center;
 }
+
+.round{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 /* container, background-color & color */
 .container{
@@ -146,6 +158,7 @@ header img{
     margin: 1rem 0;   
 }
 
+
 /* main */
 .padding-top{
     padding-top: 6rem;
@@ -161,30 +174,31 @@ header img{
     margin: 1rem;
 }
 
+
+/* 3th section, testimonial*/
+
+
+
 /* 4th section, benefit of working with us*/
 .forth-sect button{
     margin: 1.5rem 0 1rem 0;
     padding: 0.7rem 2.5rem;
 }
 
+
 /* 5th section, about us */
-#myimg{
+.myimg{
     width: 50%;
     margin: 3rem 0 1rem;
     position: relative;
 }
 
-#myimg h2{
+.myimg h2{
     position: absolute;
     font-size: 30vw;
     max-block-size: 200px;
     top:-22%;
     left:75%;
-}
-
-.fifth-sect img{
-    object-fit: cover;
-    border-radius: 50%;
 }
 
 .fifth-sect button{
@@ -194,6 +208,7 @@ header img{
 .fifth-sect button div{
     padding-right: 0.6rem;
 }
+
 
 /* 6th section, it's free */
 .sixth-sect .container div,
