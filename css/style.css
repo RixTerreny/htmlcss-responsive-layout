@@ -17,6 +17,7 @@ p{
 ul{
     list-style: none;
     display: none;
+    margin-top: 9px;
 }
 
 li{
